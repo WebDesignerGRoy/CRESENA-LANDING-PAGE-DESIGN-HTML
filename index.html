@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edible Oil Supplier UAE | Private Label Edible Oil & GCC Export | Cresena</title>
+    <meta name="description" content="Cresena is a UAE-based edible oil supplier for retail, wholesale, foodservice, private label, and GCC export markets. Sunflower oil, vegetable oil, palm oil, and olive oil supply.">
+    <link rel="icon" href="https://z-cdn-media.chatglm.cn/files/4723a705-ce15-473e-a09f-c38306d60eff.png?auth_key=1872815920-e64af46f3ca84fab8eaebf0f3ee44a6b-0-2bb95dc69102ee3ef81ed2983fd798a6" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-green: #2a7c3f;
+            --light-green: #4a9c5f;
+            --gold: #d4af37;
+            --dark-gold: #b8941f;
+            --light-gray: #f8f9fa;
+            --dark-gray: #333;
+            --white: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--dark-gray);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 60px;
+            margin-right: 10px;
+        }
+        
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-green);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark-gray);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary-green);
+        }
+        
+        .cta-button {
+            background-color: var(--gold);
+            color: var(--white);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: var(--dark-gold);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(42, 124, 63, 0.6), rgba(42, 124, 63, 0.6)), url('https://i.postimg.cc/dQgLQKRK/hero.jpg');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            padding: 180px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .hero .cta-button {
+            background-color: var(--gold);
+            font-size: 1.1rem;
+            padding: 15px 30px;
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-green);
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        /* Who We Supply Section */
+        .who-we-supply {
+            background-color: var(--light-gray);
+        }
+        
+        .supply-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .supply-item {
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .supply-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .supply-image {
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .supply-content {
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .supply-content i {
+            font-size: 2.5rem;
+            color: var(--primary-green);
+            margin-bottom: 15px;
+        }
+        
+        .supply-content h3 {
+            margin-bottom: 10px;
+            color: var(--dark-gray);
+        }
+        
+        /* Why Choose Us Section */
+        .why-choose {
+            background-color: var(--white);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-item {
+            background-color: var(--light-gray);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .feature-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .feature-content {
+            padding: 25px;
+        }
+        
+        .feature-content i {
+            font-size: 1.8rem;
+            color: var(--gold);
+            margin-bottom: 15px;
+        }
+        
+        .feature-content h3 {
+            margin-bottom: 10px;
+            color: var(--primary-green);
+        }
+        
+        /* Products Section */
+        .products {
+            background-color: var(--light-gray);
+        }
+        
+        .product-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .product-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .product-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .product-content {
+            padding: 25px;
+        }
+        
+        .product-content h3 {
+            color: var(--primary-green);
+            margin-bottom: 15px;
+        }
+        
+        .product-content p {
+            margin-bottom: 15px;
+        }
+        
+        .product-content a {
+            color: var(--gold);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .product-content a i {
+            margin-left: 5px;
+            transition: transform 0.3s;
+        }
+        
+        .product-content a:hover i {
+            transform: translateX(5px);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(rgba(42, 124, 63, 0.9), rgba(42, 124, 63, 0.9)), url('https://picsum.photos/seed/oilsupply/1920/600.jpg');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .cta-section .cta-button {
+            background-color: var(--gold);
+            font-size: 1.1rem;
+            padding: 15px 30px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-gray);
+            color: var(--white);
+            padding: 60px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--gold);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: var(--light-green);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        .footer-seo {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                margin-top: 15px;
+            }
+            
+            nav ul li {
+                margin: 0 10px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="https://z-cdn-media.chatglm.cn/files/5d85fa81-312e-4130-af34-5cac1eb9a215.png?auth_key=1872815920-13731351561f4e919daec41b7742bb41-0-534a7746fa4994920d4c71344927ec26" alt="Cresena Foods Logo">
+                <div class="logo-text">CRESSENA FOODS</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#insights">Insights</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button">Request a Quote</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Premium Edible Oil Supplier in UAE for Retail, Foodservice & Private Label</h1>
+            <p>Cresena is a trusted edible oil supplier in the UAE, serving retail, wholesale, foodservice / HORECA, private label, and export markets across the UAE GCC and international markets.</p>
+            <p>We provide consistent quality, flexible packaging, and reliable supply for businesses that need dependable edible oil solutions aligned to market demand.</p>
+            <a href="#contact" class="cta-button">Request a Quote</a>
+        </div>
+    </section>
+
+    <!-- Who We Supply Section -->
+    <section class="who-we-supply" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Who We Supply</h2>
+                <p>Cresena supports a diverse range of businesses across the UAE and GCC markets</p>
+            </div>
+            <div class="supply-grid">
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/distributors/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-truck"></i>
+                        <h3>Distributors</h3>
+                        <p>Reliable supply chain solutions for distributors across the region</p>
+                    </div>
+                </div>
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/supermarket/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-store"></i>
+                        <h3>Retailers</h3>
+                        <p>Quality edible oils for retail shelves with flexible packaging options</p>
+                    </div>
+                </div>
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/wholesale/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-warehouse"></i>
+                        <h3>Wholesalers</h3>
+                        <p>Volume-based solutions for wholesale operations</p>
+                    </div>
+                </div>
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/restaurant/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Foodservice / HORECA</h3>
+                        <p>Specialized products for hotels, restaurants, and catering</p>
+                    </div>
+                </div>
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/hotel/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-bed"></i>
+                        <h3>Hospitality Groups</h3>
+                        <p>Tailored solutions for hospitality industry requirements</p>
+                    </div>
+                </div>
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/privatelabel/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-tag"></i>
+                        <h3>Private Label Brands</h3>
+                        <p>Complete private label support for your edible oil brand</p>
+                    </div>
+                </div>
+                <div class="supply-item">
+                    <div class="supply-image" style="background-image: url('https://picsum.photos/seed/export/400/300.jpg');"></div>
+                    <div class="supply-content">
+                        <i class="fas fa-globe"></i>
+                        <h3>Import / Export Traders</h3>
+                        <p>Export coordination across GCC and international markets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Cresena</h2>
+                <p>Cresena combines product consistency, packaging flexibility, and responsive service to support long-term B2B edible oil supply partnerships in the UAE and GCC.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://i.postimg.cc/VsMVTf5y/Consistent-Product.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Consistent Product Quality</h3>
+                        <p>Quality-first process from sourcing to packaging ensures consistent product quality across every batch.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://i.postimg.cc/Dwz52nfS/Reliable-Order-Fulfillment.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-shipping-fast"></i>
+                        <h3>Reliable Order Fulfillment</h3>
+                        <p>Dependable delivery schedules and order fulfillment to keep your business running smoothly.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://i.postimg.cc/CMH4kzzH/Flexible-Packaging-Formats.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-box-open"></i>
+                        <h3>Flexible Packaging Formats</h3>
+                        <p>Multiple packaging options from retail bottles to bulk containers to meet your specific needs.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://i.postimg.cc/9f7dMf6T/Private-Label.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-tags"></i>
+                        <h3>Private Label Support</h3>
+                        <p>Complete private label solutions including filling, labeling, and packaging for your brand.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://i.postimg.cc/8zqywxDv/Repacking-Capability.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-recycle"></i>
+                        <h3>Repacking Capability</h3>
+                        <p>Repacking services to adapt products to your specific market requirements.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://i.postimg.cc/8kBqckGZ/GCC-Market-Focus.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>GCC Market Focus</h3>
+                        <p>Deep understanding of GCC markets with specialized support for regional requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Edible Oils We Supply</h2>
+                <p>We supply edible oils for retail, wholesale, foodservice, and private label programs across the UAE and GCC.</p>
+            </div>
+            <div class="product-cards">
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://i.postimg.cc/ncCF8QbC/Sunflower-Oil.jpg');"></div>
+                    <div class="product-content">
+                        <h3>Sunflower Oil</h3>
+                        <p>Light taste and versatile performance for frying, cooking, and salad applications.</p>
+                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://i.postimg.cc/1RLmQ39t/Vegetable-Oil.jpg');"></div>
+                    <div class="product-content">
+                        <h3>Vegetable Oil</h3>
+                        <p>Multipurpose oil with a mild profile for everyday cooking and foodservice use.</p>
+                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://i.postimg.cc/LXYcCjgT/Palm-Oil.jpg');"></div>
+                    <div class="product-content">
+                        <h3>Palm Oil</h3>
+                        <p>Refined for stable cooking performance, shelf life, and high-volume preparation.</p>
+                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://i.postimg.cc/sgTb3TpT/Olive-Oil.jpg');"></div>
+                    <div class="product-content">
+                        <h3>Olive Oil</h3>
+                        <p>Flavor-forward options for dressings, marinades, finishing, and premium cooking applications.</p>
+                        <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Private Label Section -->
+    <section class="why-choose" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Private Label Edible Oil & Repacking Support</h2>
+                <p>Looking to launch or grow your edible oil brand? Cresena provides private label edible oil support in the UAE with flexible packaging and repacking services.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://picsum.photos/seed/oilfilling/400/300.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-fill"></i>
+                        <h3>Filling</h3>
+                        <p>Precision filling services for various container sizes and types with state-of-the-art equipment.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://picsum.photos/seed/labeling/400/300.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-tag"></i>
+                        <h3>Label Coordination</h3>
+                        <p>Professional label design and application to match your brand identity and regulatory requirements.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://picsum.photos/seed/shrinkwrapping/400/300.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-box"></i>
+                        <h3>Shrink Wrapping</h3>
+                        <p>Secure packaging solutions to protect your products during transport and storage.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://picsum.photos/seed/retailpackaging/400/300.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-shopping-basket"></i>
+                        <h3>Retail and Bulk Formats</h3>
+                        <p>Flexible packaging options from retail bottles to bulk containers to meet your specific needs.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-image" style="background-image: url('https://picsum.photos/seed/dispatch/400/300.jpg');"></div>
+                    <div class="feature-content">
+                        <i class="fas fa-truck-loading"></i>
+                        <h3>Dispatch Support</h3>
+                        <p>Efficient logistics and dispatch coordination for timely delivery across UAE and GCC.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need a reliable edible oil supplier in the UAE?</h2>
+            <p>Contact Cresena to request a quote and discuss your product, packaging, and supply requirements.</p>
+            <a href="#contact" class="cta-button">Request a Quote</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Cresena</h3>
+                    <p>Cresena is a UAE-based edible oil supplier supporting retail, foodservice, wholesale, private label, and GCC export markets.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#insights">Insights</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>Submit your inquiry through our contact form and our team will get in touch.</p>
+                    <a href="#contact" class="cta-button" style="margin-top: 15px;">Request a Quote</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cresena Foods. All rights reserved.</p>
+                <p class="footer-seo">Sunflower oil supplier UAE • Vegetable oil supplier UAE • Palm oil supplier UAE • Private label edible oil UAE • GCC edible oil export support</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add active class to navigation based on scroll position
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav ul li a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all feature items and supply items
+        document.querySelectorAll('.feature-item, .supply-item, .product-card').forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
